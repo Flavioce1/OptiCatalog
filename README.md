@@ -2,7 +2,7 @@
 
 > Un agent conseiller multicritère pour opticiens.
 
-*Document de vision produit — projet en cours de développement.*
+*Document de vision produit, projet en cours de développement.*
 
 ---
 
@@ -10,15 +10,15 @@
 
 Choisir le bon verre pour un client est un acte technique qui mobilise simultanément plusieurs dimensions : la correction prescrite, les caractéristiques de la monture retenue, les besoins réels du client (sport, conduite, écran, lecture), le catalogue du fabricant avec ses gammes et ses traitements, et enfin la mutuelle du client avec les partenariats du magasin.
 
-Un seul catalogue fabricant peut atteindre 80 pages. Un magasin travaille en général avec plusieurs fabricants et doit composer avec des dizaines de mutuelles différentes. La combinatoire est telle qu'aucun professionnel — même expérimenté — ne la maîtrise mentalement dans son intégralité.
+Un seul catalogue fabricant peut atteindre 80 pages. Un magasin travaille en général avec plusieurs fabricants et doit composer avec des dizaines de mutuelles différentes. La combinatoire est telle qu'aucun professionnel, même expérimenté, ne la maîtrise mentalement dans son intégralité.
 
-Conséquences observées au quotidien : recommandations sous-optimales, ventes ratées par méconnaissance d'une gamme pourtant adaptée, temps perdu à feuilleter des catalogues PDF au comptoir devant le client.
+Conséquences observées au quotidien : recommandations sous-optimales, ventes ratées par méconnaissance d'une gamme pourtant adaptée, temps perdu à feuilleter des catalogues PDF à la table de vente devant le client.
 
 ## La solution
 
-OptiCatalog est un agent qui automatise ce raisonnement multicritère. À partir d'un brief client structuré — correction, monture choisie, usage et préférences, mutuelle — l'agent recommande la combinaison verre + traitements + gamme la mieux adaptée.
+OptiCatalog est un agent qui automatise ce raisonnement multicritère, destiné aussi bien à l'opticien diplômé qu'au vendeur en magasin. À partir d'un brief client structuré (correction, monture choisie, usage et préférences, mutuelle), l'agent recommande la combinaison verre + traitements + gamme la mieux adaptée.
 
-Chaque recommandation est argumentée et sourcée : pour chaque option proposée, l'agent cite la page exacte du catalogue fabricant qui justifie son choix. Quand la mutuelle est renseignée, le reste à charge est calculé précisément.
+Chaque recommandation est argumentée et sourcée. Pour chaque option proposée, l'agent cite la page exacte du catalogue fabricant qui justifie son choix. Quand la mutuelle est renseignée, le reste à charge est calculé précisément.
 
 L'outil ne remplace pas l'opticien diplômé. Il l'assiste sur la partie combinatoire, lui rendant disponible le temps de la relation client et de la validation experte.
 
@@ -35,7 +35,7 @@ L'outil ne remplace pas l'opticien diplômé. Il l'assiste sur la partie combina
 
 ### Recommandation après essayage de la monture
 
-> Au comptoir : le vendeur a saisi la correction et choisi la monture avec la cliente. Il décrit son profil — *femme 45 ans, myope -2.50 avec addition 1.50, monture nylor moyen format, conduite urbaine et 7h par jour d'écran*. En quelques secondes, OptiCatalog propose 3 options classées, avec un argumentaire sourcé pour chacune.
+> À la table de vente : le vendeur a saisi la correction et choisi la monture avec la cliente. Il décrit son profil : *femme 45 ans, myope -2.50 avec addition 1.50, monture nylor moyen format, conduite urbaine et 7h par jour d'écran*. En quelques secondes, OptiCatalog propose 3 options classées, avec un argumentaire sourcé pour chacune.
 
 ### Comparaison rapide entre deux gammes
 
@@ -79,6 +79,6 @@ OptiCatalog adopte une posture prudente sur deux points sensibles.
 
 ## À propos
 
-Je suis Flavien Hue, opticien diplômé en exercice et en reconversion vers les métiers de l'ingénierie logicielle appliquée aux modèles de langue. OptiCatalog est né du constat répété, au comptoir, qu'une part significative de la valeur de l'opticien se joue dans cette combinatoire que les outils existants ne soutiennent pas.
+Je suis Flavien Hue, opticien diplômé en exercice et en reconversion vers les métiers de l'ingénierie logicielle appliquée aux modèles de langue. OptiCatalog est né du constat répété, à la table de vente, qu'une part significative de la valeur de l'opticien se joue dans cette combinatoire que les outils existants ne soutiennent pas.
 
 Le projet sert à la fois de portfolio technique pour ma reconversion et de contribution potentielle à la profession. Il est développé en évolution continue.
