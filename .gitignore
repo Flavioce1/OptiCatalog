@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.benchmarks/
+*.csv
+data/
+.env
+CLAUDE.md
+PRD-OptiCatalog.md
+GUIDE-EXECUTION-v1.md
